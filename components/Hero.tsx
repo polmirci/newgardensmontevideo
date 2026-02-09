@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://picsum.photos/id/116/1920/1080" 
+          src="https://images.unsplash.com/photo-1558905540-2126cdd54f67?q=80&w=2000&auto=format&fit=crop" 
           alt="Jardinería profesional en Montevideo" 
           className="w-full h-full object-cover object-center scale-105"
         />
