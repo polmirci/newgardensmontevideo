@@ -67,13 +67,9 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-zinc-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-600 text-sm text-center md:text-left">
+          <p className="text-gray-600 text-sm text-center md:text-left w-full">
             &copy; {new Date().getFullYear()} New Garden Montevideo. Todos los derechos reservados.
           </p>
-          <div className="flex gap-6">
-            <a href="#" className="text-gray-600 hover:text-white text-sm">Privacidad</a>
-            <a href="#" className="text-gray-600 hover:text-white text-sm">Términos</a>
-          </div>
         </div>
       </div>
     </footer>

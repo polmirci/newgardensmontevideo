@@ -4,8 +4,8 @@ import FadeIn from './FadeIn';
 
 const Services: React.FC = () => {
   return (
-    <section id="servicios" className="py-24 bg-zinc-900 text-white">
-      <div className="container mx-auto px-6">
+    <section id="servicios" className="py-24 bg-zinc-900 text-white relative z-20 -mt-4">
+      <div className="container mx-auto px-6 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <FadeIn>
             <span className="text-[#00D646] font-bold tracking-widest uppercase text-sm mb-4 block">Nuestros Servicios</span>

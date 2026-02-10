@@ -2,10 +2,10 @@ import { Trees, Scissors, Shovel, Phone, Mail, MapPin, Facebook, Instagram } fro
 import { ServiceItem, NavItem, SocialLink } from './types';
 
 export const COMPANY_NAME = "New Garden Montevideo";
-export const PHONE_NUMBER = "(099) 123 456"; // Placeholder
-export const EMAIL_ADDRESS = "contacto@newgarden.uy";
+export const PHONE_NUMBER = "(099) 958 565";
+export const EMAIL_ADDRESS = "newgardenmontevideo@gmail.com";
 export const ADDRESS = "Montevideo, Uruguay";
-export const WHATSAPP_LINK = "https://wa.me/59899123456";
+export const WHATSAPP_LINK = "https://wa.me/59899958565";
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Inicio', href: '#inicio' },

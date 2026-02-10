@@ -4,11 +4,8 @@ import FadeIn from './FadeIn';
 
 const About: React.FC = () => {
   return (
-    <section id="nosotros" className="py-24 bg-white relative overflow-hidden">
-        {/* Decorational background element */}
-        <div className="absolute top-0 right-0 w-1/3 h-full bg-gray-50 skew-x-12 translate-x-32 z-0 hidden lg:block"></div>
-
-      <div className="container mx-auto px-6 relative z-10">
+    <section id="nosotros" className="py-24 bg-white relative z-10">
+      <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           
           {/* Image Grid */}
@@ -17,13 +14,13 @@ const About: React.FC = () => {
                 <div className="grid grid-cols-2 gap-4">
                     {/* Image 1: Round Topiary Bush / Manicured Garden */}
                     <img 
-                        src="https://images.unsplash.com/photo-1610309650392-411a0c710486?auto=format&fit=crop&q=80&w=800" 
+                        src="https://images.unsplash.com/photo-1734079692079-172d8243ebd3?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                         alt="Poda de arbustos y toparios" 
                         className="w-full h-64 object-cover rounded-2xl shadow-lg mt-8"
                     />
                     {/* Image 2: Lush Green Vegetation */}
                     <img 
-                        src="https://images.unsplash.com/photo-1557429287-b2e26467fc2b?auto=format&fit=crop&q=80&w=800" 
+                        src="https://images.unsplash.com/photo-1734079692079-aae7e24a7035?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                         alt="Mantenimiento de jardines y cercos" 
                         className="w-full h-64 object-cover rounded-2xl shadow-lg"
                     />
